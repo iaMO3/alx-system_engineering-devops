@@ -14,5 +14,5 @@ while [ "$i" -lt 11 ]; do
     echo "Best School"
   fi
 
-  i=$((i+1))
+  ((i++))
 done
