@@ -11,5 +11,5 @@ while [ "$i" -lt 11 ]; do
     echo "Hi"
   fi
 
-  i=$((i+1))
+  ((i++))
 done
