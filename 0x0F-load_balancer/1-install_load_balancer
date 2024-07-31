@@ -34,11 +34,11 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend clickviral-tech-frontend
+frontend digitalelavate-tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
+    default_backend digitalelavate-tech-backend
 
-backend clickviral-tech-backend
+backend digitalelavate-tech-backend
     balance roundrobin
     server 428997-web-01 107.23.106.204:80 check
     server 428997-web-02 52.91.145.201:80 check
